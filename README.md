@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## Migrate Database
 
-Migrating the database isn't strictly necessary. The development server will run without them but it will complain. So if you don't want the warning in the console, run the folling command.
+Migrating the database isn't strictly necessary. The development server will run without it but it will complain. So if you don't want the warning in the console, run the folling command.
 
 ```shell
 python manage.py migrate
